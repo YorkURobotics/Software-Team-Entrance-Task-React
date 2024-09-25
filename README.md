@@ -13,8 +13,8 @@ Create a basic To-Do List component using React (A JavaScript framework). The co
 5. **Node.js and npm (Optional for now):** Node.js is a runtime environment that executes JavaScript code outside a web browser. npm (Node Package Manager) is a package manager for Node.js. You will need these tools to create a new React project and manage its dependencies.
 6. **Git/GitHub:** Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories. You should understand how to create a repository, make commits, push changes, and pull updates.
 7. **JavaScript ES6 features (optional):** ES6, also known as ECMAScript 2015, is a version of JavaScript that includes a variety of new features like arrow functions, class declaration, let and const, destructuring assignment, etc. These features are commonly used in modern JavaScript development, including React.
-8. **React Bootstrap (optional):** React Bootstrap is a frontend framework that replaces the Bootstrap JavaScript. Each component has been built from scratch as true React components, without unneeded dependencies like jQuery. It allows you to use Bootstrap as the theme of your React applications.
-9. **Strapi (optional):** Strapi is an open-source headless CMS (short for Content Management Systems) that allows you to quickly create and maintain RESTful JavaScript APIs. Strapi helps in creating both simple and complex backends, either as an individual or an organization.
+8. **React Bootstrap (optional):** React Bootstrap is a front-end framework that replaces the Bootstrap JavaScript. Each component has been built from scratch as true React components, without unneeded dependencies like jQuery. It allows you to use Bootstrap as the theme of your React applications.
+9. **Strapi (optional):** Strapi is an open-source headless CMS (short for Content Management Systems) that allows you to quickly create and maintain RESTful JavaScript APIs. Strapi helps create both simple and complex backends for both individuals and organizations.
 10. **React Hooks (optional):** React Hooks were introduced in React 16.8; they allow the use of state and other React features by using functional components. For a To-do List project, you might need to use useState hook.
 
 ## Task Outline
@@ -29,11 +29,11 @@ Your goal is to create a React component that acts as a Todo list with the follo
 
 1. **Task List** - A list of all tasks.
 2. **TODO Page and Completed Page** - Two different pages to display tasks you have left and the ones that are completed.
-3. **Task Description** - Provides description and/or notes for tasks.
+3. **Task Description** - Provides a description and/or notes for tasks.
 4. **Due Dates** - Lets you specify due dates for tasks (if they have one).
 5. **Add Task** - Lets you add a new task to the task list. This is where the user would input all the task information (due dates, description, tags, etc.).
 6. **Task Completed** - Functionality to complete a task.
-7. **Delete Task** - Lets you delete a task such that it is neither on the TODO Page nor the Completed Page.
+7. **Delete Task** - This lets you delete a task such that it is neither on the TODO Page nor the Completed Page.
 8. **Export List** (Optional) - A button that lets you download all the current tasks as a JSON object.
 
 ### Unique Feature:
